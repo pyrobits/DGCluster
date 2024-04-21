@@ -5,7 +5,7 @@ This repository is a reference implementation of DGCluster as described in the p
 > DGCLUSTER: A Neural Framework for Attributed Graph Clustering via Modularity Maximization.<br>
 > Aritra Bhowmick, Mert Kosan, Zexi Huang, Ambuj Singh, Sourav Medya<br>
 > Association for the Advancement of Artificial Intelligence (AAAI), 2024.<br>
-> https://arxiv.org/abs/2312.12697
+> [https://ojs.aaai.org/index.php/AAAI/article/view/28983](https://ojs.aaai.org/index.php/AAAI/article/view/28983)
 
 ## Requirements
 
@@ -29,7 +29,7 @@ conda env create -f environment.yml
 To generate the result for a specific dataset (e.g., cora) and lambda parameter (e.g., 0.2), run the following:
 
 ```train
-python main..py --dataset cora --lam 0.2
+python main.py --dataset cora --lam 0.2
 ```
 
 We also provide shell scripts `run.sh`, `run_alp.sh`, `run_base_all.sh` to reproduce all results data for all datasets and parameters. You can just run the following commands to generate the data for the corresponding tables or figures.
