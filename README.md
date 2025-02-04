@@ -40,13 +40,5 @@ We also provide shell scripts `run.sh`, `run_alp.sh`, `run_base_all.sh` to repro
 
 Additionally, `plots.py` and `plots_num_clusters.py` can be used to generate Figure 1 and Figure 2.
 
-## Citing
-If you find our framework useful, please consider citing the following paper:
 
-	@inproceedings{dgcluster2024,
-	author = {Bhowmick, Aritra and Kosan, Mert and Huang, Zexi and Singh, Ambuj and Medya, Sourav},
-	 title = {DGCLUSTER: A Neural Framework for Attributed Graph Clustering via Modularity Maximization},
-	 booktitle = {AAAI},
-	 year = {2024}
-	}
  
